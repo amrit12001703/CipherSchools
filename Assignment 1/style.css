@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+    font-family: "Roboto condensed, sans-serif";
+    background-color: rgb(37, 33, 33);
+}
+
+body{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body h2{
+    margin: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(9, 171, 247);
+}
+
+.window{
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    font-size: 66px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.window span{
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons button{
+    flex: 1;
+    margin: 10px 5px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: blue;
+}
