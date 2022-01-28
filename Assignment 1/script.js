@@ -52,4 +52,4 @@ function startTimer(){
     if(mins > 9){
         getSeconds.innerHTML = mins;
     }
-}
+} 
